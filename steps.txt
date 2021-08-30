@@ -1,0 +1,30 @@
+env
+django
+projects
+app
+installed=[app]
+DRF
+installed=[rest_framework]
+cors(djago-cors-headers)
+installed=[corsheaders]
+CORS_ALLOW_CREDENTIALS=True
+CORS_ORIGIN_WHITELIST=[]
+custom user model (AbstactUser)
+AUTH_USER_MODEL=User
+registration
+serializer
+viewsets
+installed=[rest_auth]
+
+google gmail SMTP
+https://www.sitepoint.com/django-send-email/
+
+.env file
+pip install django-environ
+echo.env=>near setting.py files
+
+app password=ioftxrhcqdwqqvus
+
+'DEFAULT_PARSER_CLASSES':(
+        'rest_framework.parsers.JSONParser',
+    )
